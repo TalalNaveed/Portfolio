@@ -1,4 +1,4 @@
-Deployed in Vercel. Check it out here: https://portfolio-wheat-gamma-33.vercel.app/
+Deployed using Vercel. Check it out here: https://portfolio-wheat-gamma-33.vercel.app/
 
 # Getting Started with Create React App
 
