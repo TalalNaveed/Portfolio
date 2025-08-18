@@ -23,7 +23,7 @@ export function HeroSection() {
           {/* Professional Headshot */}
           <div className="w-64 h-64 mx-auto mb-8 rounded-full overflow-hidden shadow-lg">
             <img
-              src="/profile.png"
+              src="Profile.png"
               alt="Professional headshot"
               className="w-full h-full object-cover"
             />
