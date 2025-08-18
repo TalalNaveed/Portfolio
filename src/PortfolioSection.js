@@ -48,7 +48,7 @@ export function PortfolioSection() {
         "Responsive portfolio website with smooth animations and modern design.",
       image: "/creative-agency-portfolio.png",
       tags: ["React", "Tailwind CSS"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/TalalNaveed/Portfolio",
     },
   ]
 
