@@ -1,3 +1,5 @@
+Deployed using Vercel. Check it out here: https://portfolio-wheat-gamma-33.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
