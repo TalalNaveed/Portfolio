@@ -1,4 +1,4 @@
-Deployed using Vercel. Check it out here: https://portfolio-wheat-gamma-33.vercel.app/
+Minimalistic personal portfolio built using react and tailwind css. Deployed using Vercel. Check it out here: https://portfolio-wheat-gamma-33.vercel.app/
 
 # Getting Started with Create React App
 
