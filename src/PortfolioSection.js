@@ -40,7 +40,7 @@ export function PortfolioSection() {
         "Radix UI",
         "Firebase"
       ],
-      githubUrl: "https://github.com/TalalNaveed/BubbledIn,
+      githubUrl: "https://github.com/TalalNaveed/BubbledIn",
     },
     {
       title: "Richie Rich (HackPrinceton)",
