@@ -27,9 +27,9 @@ function Button({ children, className = "", ...props }) {
 export function PortfolioSection() {
   const projects = [
     {
-      title: "BubbledIn",
+      title: "BubbledIn (HackHarvard)",
       description:
-        "Project built for HackHarvard. Bubbledin uses real-time WebRTC-based audio app that creates private, low-latency communication “bubbles” for chaotic environments like hackathons, expos, and classrooms. Includes live transcription, accessibility support, QR joining, and privacy-first temporary rooms.",
+        "Bubbledin uses real-time WebRTC-based audio app that creates private, low-latency communication “bubbles” for chaotic environments like hackathons, expos, and classrooms. Includes live transcription, accessibility support, QR joining, and privacy-first temporary rooms.",
       image: "/chatbot.png",
       tags: [
         "React",
