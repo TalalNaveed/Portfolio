@@ -58,7 +58,7 @@ export function PortfolioSection() {
         "Recharts",
         "OCR"
       ],
-      githubUrl: "https://github.com/TalalNaveed/hackprinceton-receiptrichierich",
+      githubUrl: "https://github.com/TalalNaveed/Richie-Rich",
     },
 
     {
