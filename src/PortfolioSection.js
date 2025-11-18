@@ -27,13 +27,40 @@ function Button({ children, className = "", ...props }) {
 export function PortfolioSection() {
   const projects = [
     {
-      title: "Full Stack Gemini Chatbot",
+      title: "BubbledIn",
       description:
-        "Full-stack MERN chatbot with ChatGPT-style UI, Gemini AI (via LangChain & LangGraph), real-time analytics, chat history, and feedback system.",
-      image: "/chatbot.png",
-      tags: ["MERN Stack", "LangChain", "Gemini API"],
-      githubUrl: "https://github.com/TalalNaveed/mern-gemini-chatbot",
+        "Project built for HackHarvard. Bubbledin uses real-time WebRTC-based audio app that creates private, low-latency communication “bubbles” for chaotic environments like hackathons, expos, and classrooms. Includes live transcription, accessibility support, QR joining, and privacy-first temporary rooms.",
+      image: "/bubbledin.png",
+      tags: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "WebRTC",
+        "Tailwind",
+        "Radix UI",
+        "Firebase"
+      ],
+      githubUrl: "https://github.com/TalalNaveed/BubbledIn,
     },
+    {
+      title: "Richie Rich (HackPrinceton)",
+      description:
+        "AI-powered financial literacy tool that transforms everyday receipts into personalized insights. Richie Rich uses Grok Vision OCR, automated data cleaning, and financial comparison APIs to reveal spending patterns, identify savings opportunities, and show how small recurring expenses compound over time. Built in 36 hours, it bridges everyday consumer behavior with long-term wealth building—making financial clarity effortless, automatic, and accessible.",
+      image: "/creative-agency-portfolio.png",
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "xAI Grok Vision",
+        "Financial APIs",
+        "Daedalus",
+        "Tailwind",
+        "shadcn/ui",
+        "Recharts",
+        "OCR"
+      ],
+      githubUrl: "https://github.com/TalalNaveed/hackprinceton-receiptrichierich",
+    },
+
     {
       title: "Quantum Machine Learning",
       description:
@@ -41,14 +68,6 @@ export function PortfolioSection() {
       image: "/MachineLearning.jpeg",
       tags: ["PennyLane", "Pytorch", "Tensorflow", "Matplotlib"],
       githubUrl: "https://github.com/TalalNaveed/Quanvolutional-Neural-Network",
-    },
-    {
-      title: "Portfolio Website",
-      description:
-        "Responsive portfolio website with smooth animations and modern design.",
-      image: "/creative-agency-portfolio.png",
-      tags: ["React", "Tailwind CSS"],
-      githubUrl: "https://github.com/TalalNaveed/Portfolio",
     },
   ]
 
