@@ -30,7 +30,7 @@ export function PortfolioSection() {
       title: "BubbledIn",
       description:
         "Project built for HackHarvard. Bubbledin uses real-time WebRTC-based audio app that creates private, low-latency communication “bubbles” for chaotic environments like hackathons, expos, and classrooms. Includes live transcription, accessibility support, QR joining, and privacy-first temporary rooms.",
-      image: "/bubbledin.png",
+      image: "/chatbot.png",
       tags: [
         "React",
         "TypeScript",
