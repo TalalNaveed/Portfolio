@@ -15,6 +15,14 @@ function CardContent({ children, className = "" }) {
 export function ExperienceSection() {
   const experiences = [
     {
+      title: "Product Intern",
+      company: "Baraka (YCS21)",
+      location: "Dubai, United Arab Emirates",
+      period: "January 2026 - May 2026",
+      description:
+        "Designed end-to-end workflows and high-level user journeys to automate the processing of delisted securities, improving operational efficiency. Led automation of the delisted securities handling process, reducing manual intervention and turnaround time. Collaborated with product and engineering teams to translate business requirements into scalable automation solutions.",
+    },
+    {
       title: "AI Intern",
       company: "Swftbox",
       location: "Abu Dhabi, United Arab Emirates",
@@ -86,10 +94,12 @@ export function ExperienceSection() {
                   >
                     <Card className="hover:shadow-lg transition-shadow duration-300">
                       <CardContent>
-                        <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
-                          <Calendar size={16} />
-                          <span>{experience.period}</span>
-                        </div>
+                        {experience.period ? (
+                          <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
+                            <Calendar size={16} />
+                            <span>{experience.period}</span>
+                          </div>
+                        ) : null}
                         <h3 className="font-semibold text-xl text-gray-900 mb-1">
                           {experience.title}
                         </h3>

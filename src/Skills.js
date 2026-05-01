@@ -2,8 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { 
-  Code2, Database, Globe, GitBranch, Layers, Package, 
-  Server, Terminal, Palette, Cpu, Users 
+  Code2, Database, Globe, Package, Cpu, Users 
 } from "lucide-react"
 
 export function SkillsSection() {

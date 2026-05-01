@@ -62,12 +62,19 @@ export function PortfolioSection() {
     },
 
     {
-      title: "Quantum Machine Learning",
+      title: "LLM Negotiation Agent",
       description:
-        "Analyzed and Explored Various Defense Strategies against a trainable Quanvolutional Neural Network for Research Work.",
+        "LLM-based negotiation roleplay coach that simulates realistic buyer–seller bargaining using a fine-tuned model, symbolic logic guardrails, and real-time speech interaction. Built for demonstration purposes to show how neuro-symbolic constraints can improve numerical reliability while keeping dialogue natural.",
       image: "/MachineLearning.jpeg",
-      tags: ["PennyLane", "Pytorch", "Tensorflow", "Matplotlib"],
-      githubUrl: "https://github.com/TalalNaveed/Quanvolutional-Neural-Network",
+      tags: [
+        "LLM Fine-tuning",
+        "Neuro-Symbolic AI",
+        "Symbolic Guardrails",
+        "Real-time Speech",
+        "Python",
+        "PyTorch"
+      ],
+      githubUrl: "https://github.com/TalalNaveed/LLM-Negotiation-Agent",
     },
   ]
 
