@@ -18,7 +18,7 @@ export function ExperienceSection() {
       title: "Product Intern",
       company: "Baraka (YCS21)",
       location: "Dubai, United Arab Emirates",
-      period: "January 2026 - May 2026",
+      period: "January 2026 - Present",
       description:
         "Designed end-to-end workflows and high-level user journeys to automate the processing of delisted securities, improving operational efficiency. Led automation of the delisted securities handling process, reducing manual intervention and turnaround time. Collaborated with product and engineering teams to translate business requirements into scalable automation solutions.",
     },
